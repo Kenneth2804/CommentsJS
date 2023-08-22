@@ -1,0 +1,71 @@
+body{
+	background-color: black
+}
+.comment-section{
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	color: white; 
+}
+.comment-form{
+	margin-bottom: 10px;
+}
+textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+button{
+	background-color: #007bff;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+}
+.comments-list{
+	margin-top: 20px;
+}
+
+.comment{
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.comment .react-buttons button{
+	margin-right: 10px;
+}
+
+.interaction{
+	margin-top: 5px;
+	font-size: 14px;
+	color: #666;
+}
+
+.comment img{
+	max-width: 100%;
+	margin-top: 10px;
+}
+
+.comment .reactions{
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+}
+
+.comment .reaction-btn{
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.comment .interaction{
+	margin-top: 5px;
+	font-size: 14px;
+	color: #666
+}
